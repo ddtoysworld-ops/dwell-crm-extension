@@ -1,15 +1,21 @@
-# D'WELL CRM 插件 0.8.42
+# D'WELL CRM 插件 0.8.43
 
 此仓库提供 D'WELL 员工使用的 Chrome 插件安装包。插件连接正式业务系统，可保存订单及处理客户权益；下载并不代表获得登录权限。请勿在同一聊天页面同时启用旧版客服插件。
 
 ## 安装与更新
 
-1. 从 [最新版本](https://github.com/ddtoysworld-ops/dwell-crm-extension/releases/latest) 下载 `D-WELL-CRM-v0.8.42.zip`，解压到固定目录。
+1. [下载 0.8.43 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.43.zip)，解压到固定目录。
 2. 打开 Chrome 的 `chrome://extensions`，开启开发者模式，选择「加载已解压的扩展程序」，选取含 `manifest.json` 的目录。
-3. 确认显示版本 `0.8.42`，停用旧版插件，再使用获授权的员工账号登录。
+3. 确认显示版本 `0.8.43`，停用旧版插件，再使用获授权的员工账号登录。
 4. 已安装插件不会从 GitHub 自动更新。更新时替换原加载目录的文件，然后在 `chrome://extensions` 点击重新加载，并刷新 WhatsApp 或 Messenger 页面。
 
-## 相比 0.8.24
+## 相比 0.8.42
+
+- AI 回复助手的「顾客问题 / 草稿」支持手动口述。客服先选中文、English 或 Bahasa Melayu；识别文字进入可编辑草稿，不会自动生成或发送消息。
+- Chrome 可能通过在线语音服务处理音频；使用前须允许麦克风，发送前核对姓名、电话、金额和产品名。浏览器不支持时仍可打字。
+- 订单、优惠券、推荐、抽奖、Flow 和数据库规则没有变化。
+
+## 0.8.42 已有功能（相比 0.8.24）
 
 - WhatsApp 有完整号码时按号码识别；仅显示 `@用户名` 或姓名时，按唯一精确匹配显示客户资料。重名或不明确时不自动选客户，也不凭姓名永久绑定聊天。切换对话会清除旧客户上下文。
 - 客户档案显示动态购买标签；当前收货资料与旧地址分别展示。旧地址可供一键复制，但不会自动填入新订单；多地址时须先选择。
@@ -18,7 +24,7 @@
 - AI 配套资料可分别复制原配套话术和表格 E 列补充话术；E 列为空时不显示可用的复制动作。
 - 原有 Flow 发送代码保持不变；发送仍由员工操作，不会因为客户匹配而自动发送。
 
-完整变更及使用注意事项见 [0.8.42 发布页](https://github.com/ddtoysworld-ops/dwell-crm-extension/releases/tag/v0.8.42)。
+上版变更及使用注意事项见 [0.8.42 发布页](https://github.com/ddtoysworld-ops/dwell-crm-extension/releases/tag/v0.8.42)。
 
-安装包 SHA-256：`E4BABF78B810D82618155B44E8BF588E873E9038F2A1E3F49E50DB6D61844579`
+0.8.43 安装包 SHA-256：`A8E53AA63FCBEA54E300B863FA58FF549AFD99AC7D064394CD6B4ADC37214D8C`
 
