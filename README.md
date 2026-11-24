@@ -1,15 +1,20 @@
-# D'WELL CRM 插件 0.8.78
+# D'WELL CRM 插件 0.8.79
 
 供 D'WELL 员工试用的 Chrome 插件安装包。连接正式业务系统；下载插件不代表获得后台账号权限。不要在同一个聊天页面同时启用新旧两份 CRM 插件。
 
 ## 下载与更新
 
-1. [下载 0.8.78 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.78.zip)，解压到固定目录。
+1. [下载 0.8.79 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.79.zip)，解压到固定目录。
 2. 在 Chrome 的 `chrome://extensions` 开启开发者模式，选择「加载已解压的扩展程序」，选取包含 `manifest.json` 的目录。
-3. 确认显示版本 `0.8.78`，停用旧版插件，再使用获授权的员工账号登录。
+3. 确认显示版本 `0.8.79`，停用旧版插件，再使用获授权的员工账号登录。
 4. 已安装插件不会从 GitHub 自动更新。若是更新原有安装，请替换原加载目录中的文件，在 `chrome://extensions` 点「重新载入」，再刷新 WhatsApp 或 Messenger 页面。
 
-安装包 SHA-256：`14D167063BB16310167BEEECF06CD93EA7F293AD86B18524B77857B191C40A82`。
+安装包 SHA-256：`35C55C414B26F7EBAE14B3024DEDB292AEC425382B199D84901335E6EC47265E`。
+
+## 相比 0.8.78
+
+- 修正 CRM 顶部两处误显示「只读测试」的文字，恢复「Supabase · 正式库进单」。数据库指向、权限及业务操作不变。
+- 本机重新载入后，负责人确认正式库标识及 AI Agent 正常；授权测试对话中生成回复正常。其余员工电脑仍须安装后自行核对。
 
 ## 相比 0.8.74
 
