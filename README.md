@@ -1,15 +1,27 @@
-# D'WELL CRM 插件 0.8.74
+# D'WELL CRM 插件 0.8.78
 
 供 D'WELL 员工试用的 Chrome 插件安装包。连接正式业务系统；下载插件不代表获得后台账号权限。不要在同一个聊天页面同时启用新旧两份 CRM 插件。
 
 ## 下载与更新
 
-1. [下载 0.8.74 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.74.zip)，解压到固定目录。
+1. [下载 0.8.78 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.78.zip)，解压到固定目录。
 2. 在 Chrome 的 `chrome://extensions` 开启开发者模式，选择「加载已解压的扩展程序」，选取包含 `manifest.json` 的目录。
-3. 确认显示版本 `0.8.74`，停用旧版插件，再使用获授权的员工账号登录。
+3. 确认显示版本 `0.8.78`，停用旧版插件，再使用获授权的员工账号登录。
 4. 已安装插件不会从 GitHub 自动更新。若是更新原有安装，请替换原加载目录中的文件，在 `chrome://extensions` 点「重新载入」，再刷新 WhatsApp 或 Messenger 页面。
 
-安装包 SHA-256：`3169E3C875377D1422EF759DF5F3B5A36F62B941275F2969545DDAB71BE97284`。
+安装包 SHA-256：`14D167063BB16310167BEEECF06CD93EA7F293AD86B18524B77857B191C40A82`。
+
+## 相比 0.8.74
+
+- 幸运抽奖按订单地区选择马来西亚或新加坡活动；西马和东马同属马来西亚。客服仍须自行核对、开放次数和发送链接。
+- 已归户的 Messenger 顾客若有明确 COD 拒收订单，资料卡显示红框；WhatsApp／Messenger 进单填入完整电话号码时也会提醒。普通取消订单不会标红，号码相同仍须人工核对是否同一人。
+- 修复拒收查询被插件网络白名单拦下的问题。查不到时如实提示无法核对，不会当作零笔拒收。
+- 保留完整的 AI Agent、配套资料、顾客情况、对话进度和生成回复处理；修正本机未发布的 0.8.77 候选版漏带这些处理的问题。
+- 保留原有 CRM、AI 草稿、照片推荐及 Flow；不会自动发送消息或照片。0.8.78 已在本机读取 Agent、配套和对话进度，并实测 Messenger 拒收提示；其他客服电脑及 WhatsApp 进单仍须安装后核对。
+
+## 0.8.74 旧版说明
+
+0.8.74 安装包 SHA-256：`3169E3C875377D1422EF759DF5F3B5A36F62B941275F2969545DDAB71BE97284`。
 
 ## 相比 GitHub 0.8.71
 
