@@ -1,15 +1,25 @@
-# D'WELL CRM 插件 0.8.79
+# D'WELL CRM 插件 0.8.80
 
 供 D'WELL 员工试用的 Chrome 插件安装包。连接正式业务系统；下载插件不代表获得后台账号权限。不要在同一个聊天页面同时启用新旧两份 CRM 插件。
 
 ## 下载与更新
 
-1. [下载 0.8.79 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.79.zip)，解压到固定目录。
+1. [下载 0.8.80 安装包](https://github.com/ddtoysworld-ops/dwell-crm-extension/raw/refs/heads/main/D-WELL-CRM-v0.8.80.zip)，解压到固定目录。
 2. 在 Chrome 的 `chrome://extensions` 开启开发者模式，选择「加载已解压的扩展程序」，选取包含 `manifest.json` 的目录。
-3. 确认显示版本 `0.8.79`，停用旧版插件，再使用获授权的员工账号登录。
+3. 确认显示版本 `0.8.80`，停用旧版插件，再使用获授权的员工账号登录。
 4. 已安装插件不会从 GitHub 自动更新。若是更新原有安装，请替换原加载目录中的文件，在 `chrome://extensions` 点「重新载入」，再刷新 WhatsApp 或 Messenger 页面。
 
-安装包 SHA-256：`35C55C414B26F7EBAE14B3024DEDB292AEC425382B199D84901335E6EC47265E`。
+安装包 SHA-256：`BBA6F7F1A4593256D14A6A3D7C1E9D602491C643D4880618741B3B20A8A21E69`。
+
+## 相比 0.8.79
+
+- 「潜在咨询」可不填电话号码先保存为未归户记录，不建立共用假号码顾客。Messenger 只按主页 ID 与对话 UID，WhatsApp 只按完整 `@用户名` 关联；只有普通显示姓名时不自动关联，请用保存后的咨询编号查找。
+- 正式订单仍须完整电话号码；AI Agent、回复草稿、照片推荐、CRM 其他功能及 Flow 不变。服务端接口已在正式 Supabase 发布，插件不会自动给顾客发送消息。
+- 负责人本机已重新载入 0.8.80 并确认 AI Agent 与 CRM 正常；其他客服电脑仍须各自更新并核对无电话潜在咨询的实际保存。
+
+## 0.8.79 旧版安装包
+
+旧版 SHA-256：`35C55C414B26F7EBAE14B3024DEDB292AEC425382B199D84901335E6EC47265E`。
 
 ## 相比 0.8.78
 
